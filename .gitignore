@@ -1,0 +1,14 @@
+.minecraft/*
+
+!.minecraft/servers.dat
+!.minecraft/config
+!.minecraft/defaultconfigs
+!.minecraft/patchouli_books
+!.minecraft/mods
+!.minecraft/scripts
+
+.minecraft/config/betterstrongholds
+.minecraft/config/cherishedworlds
+.minecraft/config/jei
+.minecraft/config/quark_emotes
+.minecraft/config/sound_physics_remastered
