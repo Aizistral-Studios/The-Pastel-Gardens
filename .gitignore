@@ -6,6 +6,10 @@
 !.minecraft/patchouli_books
 !.minecraft/mods
 !.minecraft/scripts
+!.minecraft/journeymap/
+
+.minecraft/journeymap/*
+!.minecraft/journeymap/config
 
 .minecraft/config/betterstrongholds
 .minecraft/config/cherishedworlds
