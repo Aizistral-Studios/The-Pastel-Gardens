@@ -1120,11 +1120,11 @@
 			"Max Cost" = 0.7
 			"Spawn Cost" = 0.15
 			#Allowed values: (0,)
-			"Spawn Weight" = 8
+			"Spawn Weight" = 4
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
-			"Max Group Size" = 3
+			"Max Group Size" = 1
 
 			[mobs.wraith.spawn_config.biomes]
 
