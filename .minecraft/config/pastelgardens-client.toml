@@ -1,0 +1,10 @@
+
+#General mod config
+["Generic Config"]
+	#Defines how far from the player fog starts in The Nether. Set to negative value to not override vanilla setting.
+	#Range: -1.0 ~ 32768.0
+	netherFogNearPlane = 16.0
+	#Defines how far from the player fog reaches maximum opacity in The Nether. Set to negative value to not override vanilla setting.
+	#Range: -1.0 ~ 32768.0
+	netherFogFarPlane = 54.0
+
