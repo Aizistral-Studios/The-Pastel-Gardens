@@ -134,11 +134,6 @@
 		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
 		colored_blackboard = false
 
-	[blocks.candle_holder]
-		#Candle holder light level
-		#Range: 1 ~ 15
-		light_level = 12
-
 	[blocks.timber_frame]
 		#Replace a timber frame with wattle and daub block when daub is placed in it
 		replace_daub = true
@@ -289,14 +284,6 @@
 		#Throw bricks at your foes! Might break glass blocks
 		enabled = true
 
-	[tweaks.wall_lantern]
-		#Allow wall lanterns placement
-		enabled = true
-		#Gives high priority to wall lantern placement. Enable to override other wall lanterns placements, disable if it causes issues with other mods that use lower priority block click events
-		high_priority = true
-		#Mod ids of mods that have lantern block that extend the base lantern class but don't look like one
-		mod_blacklist = ["extlights", "betterendforge", "tconstruct", "enigmaticlegacy"]
-
 	[tweaks.bells_tweaks]
 		#Ring a bell by clicking on a chain that's connected to it
 		chain_ringing = true
@@ -379,6 +366,17 @@
 		rotten_flesh = 64
 		#Allows zombie horses to be ridden underwater
 		rideable_underwater = true
+
+	[tweaks.lantern_tweaks]
+		#Allow wall lanterns placement
+		enabled = true
+		#Gives high priority to wall lantern placement. Enable to override other wall lanterns placements, disable if it causes issues with other mods that use lower priority block click events
+		high_priority = true
+		#Mod ids of mods that have lantern block that extend the base lantern class but don't look like one
+		mod_blacklist = ["extlights", "betterendforge", "tconstruct", "enigmaticlegacy"]
+		#Allows ceiling lanterns to fall if their support is broken.Additionally if they fall from high enough they will break creating a fire where they land
+		#Allowed Values: ON, OFF, NO_FIRE
+		fallin_lanterns = "ON"
 
 [items]
 
